@@ -14,12 +14,41 @@ let infinity = Infinity;   // Special number value
 let notANumber = NaN;      // Result of invalid calculations
 ```
 
+
+Number Methods
+
+1. isInteger() -> Boolean
+2. parseFloat().toFixed() -> String
+3. parseInt()
+4. toString()
+5. isNaN() True if is not NaN
+
+Math Methods and Properties
+1. Math.PI
+2. Math.trunc()
+3. Math.round()
+4. Math.ceil()
+5. Math.floor()
+6. Math.pow(base, exponent)
+7. Math.min(num1, num2)
+8. Math.max(num1, num2)
+9. Math.random() - From 0 to 1
+
 ### 1.2 String
 ```javascript
 let firstName = "John";         // Double quotes
 let lastName = 'Doe';          // Single quotes
 let message = `Hello ${firstName}`; // Template literal
 ```
+String Methods
+1. charAt({index}) => char
+2. indexOf("{char or substring}") => startIndex of first occurrence
+3. lastIndexOf("{char or substring}") => startIndex of last occurrence
+4. slice(start, end) => substring including start and excluding end
+5. toUpperCase()
+6. toLowerCase()
+7. includes("{string}")
+8. split("{string}) 
 
 ### 1.3 Boolean
 ```javascript
